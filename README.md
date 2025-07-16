@@ -73,6 +73,15 @@ environment variables.
 - The Clerk publishable & secret keys can be found
   [here](https://dashboard.clerk.com/last-active?path=api-keys).
 
+## Setup Google Places API
+
+1. Clone the repository
+2. Copy `.env.example` to `.env.local` in the apps/web directory
+3. Create a Google Cloud project and enable the Places API
+4. Generate an API key with appropriate restrictions
+5. Add your API key to `.env.local`
+6. Install dependencies and start the development server
+
 ### 4. Run both apps
 
 Run the following command to run both the web and mobile apps:

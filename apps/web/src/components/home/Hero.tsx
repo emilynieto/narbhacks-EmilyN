@@ -8,16 +8,15 @@ const Hero = () => {
         <div className="flex sm:flex-wrap flex-nowrap justify-between items-center max-h-[690px] h-full">
           <div className="">
             <h2 className="font-montserrat pb-7 sm:pb-[26px] text-black text-[44px] sm:text-[75px] not-italic font-medium leading-[111.3%] tracking-[-1.1px] sm:tracking-[-1.875px]">
-              The Ultimate <br /> Note-Taking Experience
+              Smart PDF <br /> Question Answering
             </h2>
             <p className="font-montserrat sm:pb-16 max-w-[680px] text-black text-xl sm:text-3xl not-italic font-normal leading-[103.3%] tracking-[-0.5px] sm:tracking-[-0.75px] pb-11">
-              UseNotes harnesses the power of artificial intelligence to
-              revolutionize the way you capture, organize, and recall your
-              thoughts
+              Upload your PDF documents and get instant, AI-powered answers to any
+              questions about their content
             </p>
-            <Link href={"/notes"}>
+            <Link href="/pdf-qa">
               <button className="button gap-2.5 px-8 py-4 font-montserrat text-white text-xl sm:text-3xl not-italic font-semibold leading-[90.3%] tracking-[-0.5px] sm:tracking-[-0.75px]">
-                Get Started
+                Try PDF Q&A
               </button>
             </Link>
           </div>
@@ -28,16 +27,16 @@ const Hero = () => {
                   src={"/images/hero_image_bg.svg"}
                   width={541}
                   height={673}
-                  alt="hero"
-                  className="w-[344px] sm:w-[541px] "
+                  alt="hero background"
+                  className="w-[344px] sm:w-[541px]"
                 />
               </div>
-              <div className=" absolute z-50 inset-0 flex justify-center items-center">
+              <div className="absolute z-50 inset-0 flex justify-center items-center">
                 <Image
-                  src={"/images/hero.png"}
+                  src="/images/hero.png"
                   width={561}
                   height={456}
-                  alt="hero"
+                  alt="PDF Q&A illustration"
                   className="w-[357px] sm:w-[561px]"
                 />
               </div>
