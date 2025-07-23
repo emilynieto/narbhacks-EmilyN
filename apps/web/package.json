@@ -29,6 +29,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/postcss": "^4.1.10",
+    "@types/google.maps": "^3.58.1",
     "@types/node": "^20.12.11",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.4",
